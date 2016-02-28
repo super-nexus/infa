@@ -1,0 +1,52 @@
+
+
+h1{
+    font-family: Baghdad;
+    font-size: 3em;
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+.desc{
+    float: left;
+    margin-left: 35px;
+    color: lightskyblue;
+}
+p{
+    max-width: 850px;
+}
+p[data-pannel*="#"]{
+    padding: 20px;
+}
+p[data-pannel*="#"] a{
+    text-decoration: none;
+}
+.text{
+    margin-left: 150px;
+}
+
+.moving p{
+    max-width: 900px;
+}
+
+.small-text{
+    font-size: 90%;
+}
+
+#modra{
+    color: #109DBE;
+}
+#zelena{
+    color: #CDE751;
+}
+#oranzna{
+    color: #EFA907;
+}
+#rdeca{
+    color: #D76D5B;
+}
+.moving{
+    margin-left: 200px;
+}
