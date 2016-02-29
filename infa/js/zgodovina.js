@@ -13,8 +13,8 @@ $(function(){
             at: 'center bottom',
             of: '#10st'
         },
-        show: 1000,
-        hide: '1000',
+        show: 100,
+        hide: '100',
         autoOpen: false,
         buttons: {
             "Close": function(){
@@ -33,8 +33,8 @@ $(function(){
             at: 'center bottom',
             of: '#17st'
         },
-        show: 1000,
-        hide: '1000',
+        show: 100,
+        hide: '100',
         autoOpen: false,
         buttons: {
             "Close": function(){
@@ -52,8 +52,8 @@ $(function(){
             at: 'center bottom',
             of: '#18st'
         },
-        show: 1000,
-        hide: '1000',
+        show: 100,
+        hide: '100',
         autoOpen: false,
         buttons: {
             "Close": function(){
@@ -71,8 +71,8 @@ $(function(){
             at: 'center bottom',
             of: '#19st'
         },
-        show: 1000,
-        hide: '1000',
+        show: 100,
+        hide: '100',
         autoOpen: false,
         buttons: {
             "Close": function(){
@@ -90,8 +90,8 @@ $(function(){
             at: 'center bottom',
             of: '#20st'
         },
-        show: 1000,
-        hide: '1000',
+        show: 100,
+        hide: '100',
         autoOpen: false,
         buttons: {
             "Close": function(){
@@ -109,7 +109,7 @@ $(function(){
             at: 'center bottom',
             of: '#21st'
         },
-        show: 1000,
+        show: 100,
         hide: '1000',
         autoOpen: false,
         buttons: {
@@ -129,8 +129,8 @@ $(function(){
             at: 'center bottom',
             of: '#1700st'
         },
-        show: 1000,
-        hide: '1000',
+        show: 100,
+        hide: '100',
         autoOpen: false,
         buttons: {
             "Close": function(){

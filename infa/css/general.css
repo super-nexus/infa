@@ -4,6 +4,7 @@ h1{
     font-family: Baghdad;
     font-size: 3em;
     text-align: center;
+    position: relative;
 }
 
 .bold{
@@ -24,7 +25,8 @@ p[data-pannel*="#"] a{
     text-decoration: none;
 }
 .text{
-    margin-left: 150px;
+    position: absolute;
+    left: 290px;
 }
 
 .moving p{
