@@ -1,12 +1,10 @@
-#img{
-    position: relative;
-    background-color: black;
-    height: 400px;
-    width: 400px;
-    float: right;
-    margin-left: 0;
-    margin-top: -390px;
-    right: 70px;
+
+
+img{
+    margin-left: 100px;
+    margin-top: 60px;
+    height: 350px;
+    width: 275px;
 }
 p{
     max-width: 560px;

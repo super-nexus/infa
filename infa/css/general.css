@@ -1,36 +1,32 @@
 
-
+body{
+    background-color: #E8E8E8;
+}
 h1{
     font-family: Baghdad;
-    font-size: 3em;
-    text-align: center;
-    position: relative;
+    font-size: 300%;
 }
 
 .bold{
     font-weight: bold;
 }
-.desc{
-    float: left;
-    margin-left: 35px;
-    color: lightskyblue;
-}
+
 p{
-    max-width: 850px;
+    max-width: 80%;
+    font-size: 125%;
 }
 p[data-pannel*="#"]{
     padding: 20px;
 }
+ul.normal li{
+    font-size: 125%;
+}
 p[data-pannel*="#"] a{
     text-decoration: none;
+    font-size: 100%;
 }
-.text{
-    position: absolute;
-    left: 290px;
-}
-
-.moving p{
-    max-width: 900px;
+.text-img{
+    height: 380px;
 }
 
 .small-text{
@@ -49,6 +45,4 @@ p[data-pannel*="#"] a{
 #rdeca{
     color: #D76D5B;
 }
-.moving{
-    margin-left: 200px;
-}
+

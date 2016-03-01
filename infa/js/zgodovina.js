@@ -64,7 +64,7 @@ $(function(){
     $("#19stD").dialog({
         draggable: false,
         resizable: true,
-        width: "auto",
+        width: '80%',
         modal: true,
         position: {
             my: 'center top',
@@ -110,7 +110,7 @@ $(function(){
             of: '#21st'
         },
         show: 100,
-        hide: '1000',
+        hide: '100',
         autoOpen: false,
         buttons: {
             "Close": function(){

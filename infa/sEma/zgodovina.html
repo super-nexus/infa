@@ -11,6 +11,14 @@
 
     <link rel="stylesheet" href="../css/general.css" />
     <link rel="stylesheet" href="../css/jquery-ui.min.css" />
+
+    <style type="text/css">
+        img{
+            float: right;
+        }
+        
+    </style>
+
 </head>
 <body>
 
@@ -45,13 +53,7 @@
                 </li>
 
                 <!-- Lev -->
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Argumenti <span class="caret"></span> </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="../Lev/Za.html">Za</a></li>
-                        <li><a href="../Lev/Proti.html">Proti</a></li>
-                    </ul>
-                </li>
+                <li><a href="../Lev/argumjenti.html">Argumenti</a></li>
 
                 <!-- Andrija -->
                 <li class="dropdown">
@@ -76,7 +78,7 @@
                 </li>
                 <!-- Ema -->
                 <li>
-                    <a href="../sEma/zgodovina.html" class="dropdown-toggle" data-toggle="dropdown">Zgodovina <span class="caret"></span></a>
+                    <a href="../sEma/zgodovina.html" class="dropdown-toggle" data-toggle="dropdown">Zgodovina</a>
                 </li>
 
                 <li class="dropdown special">
@@ -86,6 +88,7 @@
                     </ul>
                 </li>
 
+                <li><a href="../Viri.html">Viri</a></li>
 
             </ul>
         </div>
@@ -97,10 +100,13 @@
 <!-- Content -->
 <main>
     <div class="container">
-        <h1>
-            Zgodovina smrtne kazni
-        </h1>
-        <div class="text">
+
+    <div class="row">
+        <div class="col-lg-12">
+            <h1>
+                Zgodovina smrtne kazni
+            </h1>
+
             <p>
                 Prvi zapisan zakon, ki jo dovoljuje je Hamurabijev zakonik iz 18. stol. pr. n. št., ki
                 je dovoljeval usmrtitev tistega, ki je zagrešil 25 različnih kaznivih dejanj.
@@ -115,6 +121,10 @@
                 Veliko pogosteje so na smrt obsojeni moški. V Ameriki so prvo žensko usmrtili leta 1632 in od takrat v ZDA
                 ženske predstavljajo 3% vseh usmrtitev (Razglej.se-Smrtna kazen, 2015).
             </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4">
             <h2>
                 Časovni pregled:
             </h2>
@@ -125,8 +135,13 @@
             <p class="dialogable" id="19st" data-pannel="#19stD"><a href="#"><b class="bold">19. Stoletje</b></a></p>
             <p class="dialogable" id="20st" data-pannel="#20stD"><a href="#"><b class="bold">20. Stoletje</b></a></p>
             <p class="dialogable" id="21st" data-pannel="#21stD"><a href="#"><b class="bold">21. Stoletje</b></a></p>
-
-
+        </div>
+        <div class="col-lg-8">
+            <img src="../pictures/kostko.jpg" class="img-responsive" height="1000" width="500" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
             <p id="10stD">
                 Smrtno kazen so izvajali z obešanjem predvsem v Britaniji, metoda pa se je od tam razširila v druge države .
                 V naslednjem stoletju je William Osvajalec prepovedal izvajanje smrtne kazni, z izjemo ob času vojne. 16. stol.
@@ -201,7 +216,7 @@
                 <p><b class="bold">1986</b> – ukinejo usmrtitve psihološko motenih oseb
                 </p>
                 <p><b class="bold">1988</b> – prepovedana usmrtitev mladostnikov s 15 ali manj leti.</p>
-                <p><b class="bold"1989></b> – lahko so usmrčeni mladoletniki s 16 ali več leti.
+                <p><b class="bold">1989</b> – lahko so usmrčeni mladoletniki s 16 ali več leti.
                 </p>
                 <p><b class="bold">1998</b> – usmrtijo Karlo Faye Tucker (obtožena za umor) in Judi Buenoano
                     (znana tudi kot črna vdova, saj naj bi zastrupila svojega moža, ubila sina
@@ -225,9 +240,10 @@
                     V Evropi so smrtno kazen izvajali za versko nepokorščino, znanstvene ugotovitve, ki niso podpirale takratne ideologije,
                     čarovništvo, prešuštvo, tatvine itd. Izvajali so jih s križanjem, utapljanjem, pretepanjem do smrti, sežiganje itd.
                 </p>
+                </div>
             </div>
         </div>
-    </div>
+        </div>
 </main>
 
 <script type="text/javascript" src="../js/special.js"></script>
